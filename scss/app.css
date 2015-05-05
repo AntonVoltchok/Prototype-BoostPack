@@ -1,0 +1,637 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 18, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 28, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 31, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 34, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 37, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 41, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_reset.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 45, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 52, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_reset.scss */
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+/* line 56, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_reset.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 13, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_variables.scss */
+.gold {
+  color: #e0b872; }
+
+/* line 14, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_variables.scss */
+.dull-red {
+  color: #bc644a; }
+
+/* line 15, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_variables.scss */
+.dull-orange {
+  color: #d57759; }
+
+/* line 16, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_variables.scss */
+.orange {
+  color: #d49053; }
+
+/* line 17, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_variables.scss */
+.light-orange {
+  color: #df9d6e; }
+
+/* line 18, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_variables.scss */
+.brown {
+  color: #c75430; }
+
+/* line 3, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_type.scss */
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #e0b872;
+  padding: 1% 0 0;
+  font-size: 30px; }
+  @media only screen and (max-width: 500px) {
+    h1 {
+      font-size: 7vw; } }
+  @media only screen and (min-width: 501px) and (max-width: 900px) {
+    h1 {
+      font-size: 6vw; } }
+  @media only screen and (min-width: 901px) and (max-width: 1300px) {
+    h1 {
+      font-size: 5vw; } }
+  @media only screen and (min-width: 1301px) and (max-width: 1600px) {
+    h1 {
+      font-size: 4.1vw; } }
+  @media only screen and (min-width: 1601px) and (max-width: 2561px) {
+    h1 {
+      font-size: 3.3vw; } }
+
+/* line 16, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_type.scss */
+.news-heading {
+  font-family: 'Exo', sans-serif;
+  color: #d57759;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 0.01em;
+  line-height: 3vw;
+  font-size: 18px; }
+  @media only screen and (max-width: 500px) {
+    .news-heading {
+      font-size: 2.7vw;
+      line-height: 3.3vw; } }
+  @media only screen and (min-width: 501px) and (max-width: 900px) {
+    .news-heading {
+      font-size: 2.3vw;
+      line-height: 2.9vw; } }
+  @media only screen and (min-width: 901px) and (max-width: 1300px) {
+    .news-heading {
+      font-size: 1.8vw;
+      line-height: 2.8vw; } }
+  @media only screen and (min-width: 1301px) and (max-width: 1600px) {
+    .news-heading {
+      font-size: 1.3vw;
+      line-height: 2.5vw; } }
+  @media only screen and (min-width: 1601px) and (max-width: 2561px) {
+    .news-heading {
+      font-size: 1.2vw;
+      line-height: 2.3vw; } }
+
+/* line 31, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_type.scss */
+h2 {
+  font-family: 'Lobster', cursive;
+  color: #c75430;
+  line-height: 3vw;
+  padding: 3px 0;
+  font-size: 20px; }
+  @media only screen and (max-width: 500px) {
+    h2 {
+      font-size: 4.2vw;
+      line-height: 5vw; } }
+  @media only screen and (min-width: 501px) and (max-width: 900px) {
+    h2 {
+      font-size: 3.8vw;
+      line-height: 5vw; } }
+  @media only screen and (min-width: 901px) and (max-width: 1300px) {
+    h2 {
+      font-size: 3.3vw;
+      line-height: 4.5vw; } }
+  @media only screen and (min-width: 1301px) and (max-width: 1600px) {
+    h2 {
+      font-size: 2.65vw;
+      line-height: 4vw; } }
+  @media only screen and (min-width: 1601px) and (max-width: 2561px) {
+    h2 {
+      font-size: 2vw;
+      line-height: 2.6vw; } }
+
+/*  SECTIONS  */
+/* line 9, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_simplegrid.scss */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px; }
+
+/*  COLUMN SETUP  */
+/* line 16, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_simplegrid.scss */
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%; }
+
+/* line 21, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_simplegrid.scss */
+.col:first-child {
+  margin-left: 0; }
+
+/*  GROUPING  */
+/* line 25, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_simplegrid.scss */
+.group:before, .group:after {
+  content: "";
+  display: table; }
+
+/* line 26, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_simplegrid.scss */
+.group:after {
+  clear: both; }
+
+/* line 27, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_simplegrid.scss */
+.group {
+  zoom: 1;
+  /* For IE 6/7 */ }
+
+/*  GRID OF THREE  */
+/* line 29, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_simplegrid.scss */
+.span_3_of_3 {
+  width: 100%; }
+
+/* line 30, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_simplegrid.scss */
+.span_2_of_3 {
+  width: 66.13%; }
+
+/* line 31, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_simplegrid.scss */
+.span_1_of_3 {
+  width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  /* line 35, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_simplegrid.scss */
+  .col {
+    margin: 1% 0 1% 0%; }
+  /* line 36, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_simplegrid.scss */
+  .span_3_of_3, .span_2_of_3, .span_1_of_3 {
+    width: 100%; } }
+
+/* line 3, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.img-helper {
+  width: 100%;
+  margin: 0 auto; }
+
+/* line 12, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.fit {
+  max-width: 100%; }
+
+/* line 15, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.half-width {
+  width: 50%; }
+
+/* line 18, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.full-width {
+  width: 100%; }
+
+/* line 21, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.full-height {
+  height: 100%; }
+
+/* line 27, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.center {
+  text-align: center; }
+
+/* line 30, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.text-left {
+  text-align: left; }
+
+/* line 33, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.text-right {
+  text-align: right; }
+
+/* line 38, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.left {
+  float: left; }
+
+/* line 41, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.right {
+  float: right; }
+
+/* line 46, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+/* line 50, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 57, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-all-sm {
+  padding: 2%; }
+
+/* line 60, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-all-md {
+  padding: 4%; }
+
+/* line 63, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-all-lg {
+  padding: 6%; }
+
+/* line 67, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-horizontal-sm {
+  padding: 0 2%; }
+
+/* line 70, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-horizontal-md {
+  padding: 0 4%; }
+
+/* line 73, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-horizontal-lg {
+  padding: 0 6%; }
+
+/* line 77, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-vertical-sm {
+  padding: 2% 0; }
+
+/* line 80, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-vertical-md {
+  padding: 4% 0; }
+
+/* line 83, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-vertical-lg {
+  padding: 6% 0; }
+
+/* line 87, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-top-sm {
+  padding-top: 2%; }
+
+/* line 90, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-top-md {
+  padding-top: 4%; }
+
+/* line 93, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-top-lg {
+  padding-top: 6%; }
+
+/* line 97, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-bottom-sm {
+  padding-bottom: 2%; }
+
+/* line 100, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-bottom-md {
+  padding-bottom: 4%; }
+
+/* line 103, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.pad-bottom-lg {
+  padding-bottom: 6%; }
+
+/* line 111, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-all-sm {
+  margin: 2%; }
+
+/* line 114, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-all-md {
+  margin: 4%; }
+
+/* line 117, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-all-lg {
+  margin: 6%; }
+
+/* line 121, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-vertical-sm {
+  margin: 2% auto; }
+
+/* line 124, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-vertical-md {
+  margin: 4% auto; }
+
+/* line 127, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-vertical-lg {
+  margin: 6% auto; }
+
+/* line 131, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-horizontal-sm {
+  margin: auto 2%; }
+
+/* line 134, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-horizontal-md {
+  margin: auto 4%; }
+
+/* line 137, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-horizontal-lg {
+  margin: auto 6%; }
+
+/* line 141, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-vertical-sm {
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
+/* line 145, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-vertical-md {
+  margin-top: 4%;
+  margin-bottom: 4%; }
+
+/* line 149, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-vertical-lg {
+  margin-top: 6%;
+  margin-bottom: 6%; }
+
+/* line 154, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-top-sm {
+  margin-top: 2%; }
+
+/* line 157, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-top-md {
+  margin-top: 4%; }
+
+/* line 160, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-top-lg {
+  margin-top: 6%; }
+
+/* line 164, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-bottom-sm {
+  margin-top: 2%; }
+
+/* line 167, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-bottom-md {
+  margin-top: 4%; }
+
+/* line 170, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_layout.scss */
+.marg-bottom-lg {
+  margin-top: 6%; }
+
+/* line 3, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.bar-top {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block; }
+
+/* line 13, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.bar-block {
+  max-width: 910px;
+  margin: 0% 4.5% 0%;
+  padding: 5% 5%;
+  background-color: #62463e; }
+
+/* line 22, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.content-container {
+  position: relative;
+  max-width: 700px;
+  background-color: #f6f4ed;
+  margin: auto 2%;
+  padding: 2% 0;
+  margin: 0 auto; }
+
+/* line 31, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.top-left {
+  width: 2vw;
+  height: 2vw;
+  background-color: #62463e;
+  position: absolute;
+  left: 0;
+  top: 0; }
+  @media only screen and (min-width: 1301px) and (max-width: 1600px) {
+    .top-left {
+      width: 1.6vw;
+      height: 1.6vw; } }
+  @media only screen and (min-width: 1601px) and (max-width: 2561px) {
+    .top-left {
+      width: 1.6vw;
+      height: 1.6vw; } }
+
+/* line 41, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.top-right {
+  width: 2vw;
+  height: 2vw;
+  background-color: #62463e;
+  position: absolute;
+  right: 0;
+  top: 0; }
+  @media only screen and (min-width: 1301px) and (max-width: 1600px) {
+    .top-right {
+      width: 1.6vw;
+      height: 1.6vw; } }
+  @media only screen and (min-width: 1601px) and (max-width: 2561px) {
+    .top-right {
+      width: 1.6vw;
+      height: 1.6vw; } }
+
+/* line 51, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.bottom-left {
+  width: 2vw;
+  height: 2vw;
+  background-color: #62463e;
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+  @media only screen and (min-width: 1301px) and (max-width: 1600px) {
+    .bottom-left {
+      width: 1.6vw;
+      height: 1.6vw; } }
+  @media only screen and (min-width: 1601px) and (max-width: 2561px) {
+    .bottom-left {
+      width: 1.6vw;
+      height: 1.6vw; } }
+
+/* line 61, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.bottom-right {
+  width: 2vw;
+  height: 2vw;
+  background-color: #62463e;
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+  @media only screen and (min-width: 1301px) and (max-width: 1600px) {
+    .bottom-right {
+      width: 1.6vw;
+      height: 1.6vw; } }
+  @media only screen and (min-width: 1601px) and (max-width: 2561px) {
+    .bottom-right {
+      width: 1.6vw;
+      height: 1.6vw; } }
+
+@-webkit-keyframes bump-left {
+  /* line 77, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  /* line 78, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  30% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  /* line 79, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  40% {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03); }
+
+  /* line 80, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  /* line 81, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@-webkit-keyframes bump-center {
+  /* line 84, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  /* line 85, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  60% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  /* line 86, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  70% {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03); }
+
+  /* line 87, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  80% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  /* line 88, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@-webkit-keyframes bump-right {
+  /* line 91, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  /* line 92, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  70% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  /* line 93, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  80% {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02); }
+
+  /* line 94, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  90% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+
+  /* line 95, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+/* line 99, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.news-imgs {
+  display: inline-block;
+  width: 25%;
+  border-radius: 50%;
+  border-color: #d49053;
+  border-style: solid; }
+  @media only screen and (max-width: 500px) {
+    .news-imgs {
+      border-width: 3px; } }
+  @media only screen and (min-width: 501px) and (max-width: 900px) {
+    .news-imgs {
+      border-width: 4px; } }
+  @media only screen and (min-width: 901px) and (max-width: 1300px) {
+    .news-imgs {
+      border-width: 5px; } }
+  @media only screen and (min-width: 1301px) and (max-width: 1600px) {
+    .news-imgs {
+      border-width: 6px; } }
+  @media only screen and (min-width: 1601px) and (max-width: 2561px) {
+    .news-imgs {
+      border-width: 6.5px; } }
+
+/* line 111, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.news-img-left {
+  animation: bump-left 5s infinite;
+  -webkit-animation: bump-left 5s infinite;
+  animation-timing-function: ease-in-out;
+  border-color: #d57759; }
+
+/* line 118, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.news-img-center {
+  animation: bump-center 5s infinite;
+  -webkit-animation: bump-center 5s infinite;
+  animation-timing-function: ease-in-out;
+  border-color: #d49053;
+  width: 22%;
+  margin: 0 1.5%; }
+
+/* line 127, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.news-img-right {
+  animation: bump-right 5s infinite;
+  -webkit-animation: bump-right 5s infinite;
+  animation-timing-function: ease-in-out;
+  border-color: #bc644a; }
+
+/* line 138, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.embed-container {
+  position: relative;
+  padding-bottom: 63%;
+  height: 0;
+  overflow: hidden; }
+
+/* line 147, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px; }
+
+/* line 155, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.embed-scale {
+  margin: auto 5%; }
+
+/* line 158, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.bottle-container {
+  -webkit-perspective: 700;
+  perspective: 700; }
+
+/* line 162, C:/Users/AntonVolt/Desktop/AV-SITE/PrototypeBoostPack/scss/_components.scss */
+.bottle-perspective {
+  -webkit-transform: rotate3d(1, 0, 0, -2deg);
+  transform: rotate3d(1, 0, 0, -2deg); }
+
+/*# sourceMappingURL=app.css.map */

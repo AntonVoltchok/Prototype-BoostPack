@@ -1,0 +1,45 @@
+// Examples 
+
+h1 {
+	font-family: 'Lobster', cursive;
+	color: $heading-gold;
+	padding: 1% 0 0;
+	font-size: 30px;
+	@include breakpoint(small) { font-size: 7vw; }
+	@include breakpoint(medium) { font-size: 6vw; }
+	@include breakpoint(large) { font-size: 5vw; }
+	@include breakpoint(xl) { font-size: 4.1vw; }
+	@include breakpoint(xxl) { font-size: 3.3vw; }
+}
+
+// News Section sub text 
+.news-heading {
+	font-family: 'Exo', sans-serif;
+	color: $dull-orange;
+	font-weight: 600;
+	font-style: italic;
+	letter-spacing: 0.01em;
+	line-height: 3vw;
+	font-size: 18px;
+	@include breakpoint(small) { font-size: 2.7vw; line-height: 3.3vw; }
+	@include breakpoint(medium) { font-size: 2.3vw; line-height: 2.9vw; }
+	@include breakpoint(large) { font-size: 1.8vw; line-height: 2.8vw; }
+	@include breakpoint(xl) { font-size: 1.3vw; line-height: 2.5vw; }
+	@include breakpoint(xxl) { font-size: 1.2vw; line-height: 2.3vw; }
+}
+
+h2 {
+	font-family: 'Lobster', cursive;
+	color: $brown;
+	line-height: 3vw;
+	padding: 3px 0;
+	font-size: 20px;
+	@include breakpoint(small) { font-size: 4.2vw; line-height: 5vw; }
+	@include breakpoint(medium) { font-size: 3.8vw; line-height: 5vw; }
+	@include breakpoint(large) { font-size: 3.3vw; line-height: 4.5vw; }
+	@include breakpoint(xl) { font-size: 2.65vw; line-height: 4vw; }
+	@include breakpoint(xxl) { font-size: 2vw; line-height: 2.6vw; }
+}
+
+
+
