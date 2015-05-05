@@ -19,5 +19,5 @@ could instead be done quickly and easily by making a few class changes in HTML w
 * _type : a few example classes
 * _components : if basic prototype all components can go here, if complex, split it up ex: buttons, etc...
 
-Next I'm planning on adding some javascript helper functions while keeping 
+Next I'm planning on adding some javascript helper functions and expanding on the css helpers while keeping 
 everything as minimal as possible.
