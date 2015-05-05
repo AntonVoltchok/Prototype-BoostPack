@@ -1,5 +1,5 @@
 # Prototype BoostPack
-Rapid Prototyping Helpers - No Dependencies
+Responsive Rapid Prototyping Helpers - No Dependencies
 
 I noticed Ionic as well as a few other mobile front-end frameworks 
 had some basic helper classes which I liked a lot, so I decided to add 
